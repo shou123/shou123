@@ -41,6 +41,12 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
 
+          plugin_leetcode: yes
+          plugin_leetcode_user: shou123
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_skills: 8
+          plugin_leetcode_limit_recent: 3
+
           extras_css: |
             svg {
               background: #ffffff !important;
