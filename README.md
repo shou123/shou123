@@ -17,3 +17,7 @@ I am a Computer Engineering Ph.D. candidate at Northeastern University and a Res
     <td width="33%" valign="top"><strong>💾 Intelligent data systems</strong><br/><sub>Learning-guided storage, caching, prefetching, and near-data processing.</sub></td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="github-metrics.svg" alt="Full-year isometric contribution calendar and most-used languages" width="100%" />
+</p>
