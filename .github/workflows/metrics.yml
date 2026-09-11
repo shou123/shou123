@@ -51,6 +51,21 @@ jobs:
             svg {
               background: #ffffff !important;
             }
+            path[fill="#ebedf0"] {
+              fill: #f3f4f6 !important;
+            }
+            path[fill="#9be9a8"] {
+              fill: #bfdbfe !important;
+            }
+            path[fill="#40c463"] {
+              fill: #818cf8 !important;
+            }
+            path[fill="#30a14e"] {
+              fill: #a855f7 !important;
+            }
+            path[fill="#216e39"] {
+              fill: #ec4899 !important;
+            }
             h2, h3, .field, .field > span {
               color: #24292f !important;
             }
