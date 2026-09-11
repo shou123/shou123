@@ -6,21 +6,57 @@
     <style>svg {
  background: #ffffff !important;
 }
-path[fill="#ebedf0"] {
- fill: #f3f4f6 !important;
+
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g {
+ --iso-empty: #efefef;
 }
-path[fill="#9be9a8"] {
- fill: #bfdbfe !important;
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g:nth-child(-n+5),
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g:nth-child(n+48) {
+ --iso-1: #999999;
+ --iso-2: #cccccc;
+ --iso-3: #dddddd;
+ --iso-4: #eeeeee;
 }
-path[fill="#40c463"] {
- fill: #818cf8 !important;
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g:nth-child(n+6):nth-child(-n+18) {
+ --iso-1: #ffe7ff;
+ --iso-2: #edaeda;
+ --iso-3: #e492ca;
+ --iso-4: #ba7aad;
 }
-path[fill="#30a14e"] {
- fill: #a855f7 !important;
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g:nth-child(n+19):nth-child(-n+32) {
+ --iso-1: #d8e887;
+ --iso-2: #8cc569;
+ --iso-3: #47a042;
+ --iso-4: #1d6a23;
 }
-path[fill="#216e39"] {
- fill: #ec4899 !important;
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g:nth-child(n+33):nth-child(-n+47) {
+ --iso-1: #ffed4a;
+ --iso-2: #ffc402;
+ --iso-3: #fe9400;
+ --iso-4: #fa6100;
 }
+
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path[fill="#ebedf0"] {
+ fill: var(--iso-empty) !important;
+}
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path[fill="#9be9a8"] {
+ fill: var(--iso-1) !important;
+}
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path[fill="#40c463"] {
+ fill: var(--iso-2) !important;
+}
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path[fill="#30a14e"] {
+ fill: var(--iso-3) !important;
+}
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path[fill="#216e39"] {
+ fill: var(--iso-4) !important;
+}
+section &gt; svg[viewBox="0,0 480,270"] &gt; g &gt; g &gt; g &gt; path:first-child {
+ stroke: #c6c8ca !important;
+ stroke-width: 0.2px !important;
+ stroke-linejoin: round;
+}
+
 h2, h3, .field, .field &gt; span {
  color: #24292f !important;
 }
